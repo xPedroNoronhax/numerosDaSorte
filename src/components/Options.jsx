@@ -10,6 +10,7 @@ const Options = () => {
   const handleSelect = (topic) => {
     setSelectedTopic(topic);
     // Defina valores padrão para números ao selecionar um tópico
+    // função que ira definir o botão de qual tipo de loteria será selecionado
     switch (topic) {
       case 'Mega-Sena':
         setSelectedNumbers(6);
