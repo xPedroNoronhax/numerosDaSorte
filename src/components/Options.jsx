@@ -66,22 +66,22 @@ const Options = () => {
         Em qual sorteio você deseja ficar rico?
       </h2>
 
-      <div className='flex justify-evenly w-8/12 '>
+      <div className='flex justify-evenly gap-2 w-8/12 '>
         <Button
           onClick={() => handleSelect('Mega-Sena')}
-          className='font-bold button-41 bg-gradient-to-r from-green-500 to-green-700 text-white rounded-md shadow-md cursor-pointer inline-block font-inter h-11 leading-11 outline-none overflow-hidden px-5 select-none whitespace-nowrap'
+          className='flex items-center justify-center text-center font-bold button-41 bg-gradient-to-r from-green-500 to-green-700 text-white rounded-md shadow-md cursor-pointer inline-block font-inter h-11 leading-11 outline-none overflow-hidden px-5 select-none whitespace-nowrap'
         >
           Mega-Sena
         </Button>
         <Button
           onClick={() => handleSelect('Quina')}
-          className='font-bold button-41 bg-gradient-to-r from-violet-500 to-violet-700 text-white rounded-md shadow-md cursor-pointer inline-block font-inter h-11 leading-11 outline-none overflow-hidden px-5 select-none whitespace-nowrap'
+          className='flex items-center justify-center text-center font-bold button-41 bg-gradient-to-r from-violet-500 to-violet-700 text-white rounded-md shadow-md cursor-pointer inline-block font-inter h-11 leading-11 outline-none overflow-hidden px-5 select-none whitespace-nowrap'
         >
           Quina
         </Button>
         <Button
           onClick={() => handleSelect('Loto-Fácil')}
-          className='font-bold button-41 bg-gradient-to-r from-yellow-500 to-yellow-700 text-white rounded-md shadow-md cursor-pointer inline-block font-inter h-11 leading-11 outline-none overflow-hidden px-5 select-none whitespace-nowrap'
+          className='flex items-center justify-center text-center  font-bold  bg-gradient-to-r from-yellow-500 to-yellow-700 text-white rounded-md shadow-md cursor-pointer inline-block font-inter h-11 leading-11 outline-none overflow-hidden px-5 select-none whitespace-nowrap'
         >
           Loto-Fácil
         </Button>
